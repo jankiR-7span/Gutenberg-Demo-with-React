@@ -63,6 +63,14 @@ export default function Edit( { attributes, setAttributes} ) {
 					<h1 className='box-heading'>My Third Gutenberg Block</h1>
 					<p className='box-content'>My Third Gutenberg Block Using React – hello from the saved content!</p>
 				</div>
+				<div className='block'>
+					<div className='box-number-title'>
+						<div className='box-number'>04</div>
+						<div className='box-title'>Team</div>
+					</div>
+					<h1 className='box-heading'>My Third Gutenberg Block</h1>
+					<p className='box-content'>My Third Gutenberg Block Using React – hello from the saved content!</p>
+				</div>
 			</div>
 			<div className='gutenberg-subscription-block'>
 				<div className='gutenberg-block-wrapp'>
