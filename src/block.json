@@ -1,0 +1,59 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "gutenberg/custom-gutenberg-block",
+	"version": "1.0.0",
+	"title": "My First Gutenberg Block Using React",
+	"category": "text",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": false,
+		"align": ["wide"],
+		"color": {
+			"text": true,
+			"background": true,
+			"link": true,
+			"gradients": true
+		},
+		"anchor": true
+	},
+	"textdomain": "custom-gutenberg-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"titletext" : {
+			"type" : "string",
+			"selector" : "h3",
+			"default" : "Take 10% off your first order",
+			"source": "text"
+
+		},
+		"btntext" : {
+			"type" : "string",
+			"selector" : "span",
+			"default" : "subscribe",
+			"source": "text"
+		},
+		"justtext" : {
+			"type" : "string",
+			"selector" : "p",
+			"default" : "Become a subscriber to get instntly 10% off your firt purchase.",
+			"source": "html"
+		},
+		"list_id" : {
+			"type" : "string"
+		},
+		"doubleoption" : {
+			"type" : "boolean"
+		},
+		"image" : {
+			"type" : "object",
+			"default" : {"id" : 0}
+		}
+
+	}
+}
