@@ -42,7 +42,7 @@ export default function Edit( { attributes, setAttributes} ) {
 				<div className='block'>
 					<div className='box-number-title'>
 						<div className='box-number'>01</div>
-						<div className='box-title'>First</div>
+						<div className='box-title'>Team</div>
 					</div>
 					<h1 className='box-heading'>My First Gutenberg Block</h1>
 					<p className='box-content'>My First Gutenberg Block Using React – hello from the saved content!</p>
@@ -58,15 +58,7 @@ export default function Edit( { attributes, setAttributes} ) {
 				<div className='block'>
 					<div className='box-number-title'>
 						<div className='box-number'>03</div>
-						<div className='box-title'>Team</div>
-					</div>
-					<h1 className='box-heading'>My Third Gutenberg Block</h1>
-					<p className='box-content'>My Third Gutenberg Block Using React – hello from the saved content!</p>
-				</div>
-				<div className='block'>
-					<div className='box-number-title'>
-						<div className='box-number'>04</div>
-						<div className='box-title'>Team</div>
+						<div className='box-title'>Third</div>
 					</div>
 					<h1 className='box-heading'>My Third Gutenberg Block</h1>
 					<p className='box-content'>My Third Gutenberg Block Using React – hello from the saved content!</p>
@@ -94,7 +86,7 @@ export default function Edit( { attributes, setAttributes} ) {
 							onChange={ ( justtext ) => setAttributes ( { justtext } )}
 						/>
 						<div>
-							<span>Your email</span>
+							<span>Your emails</span>
 							<RichText 
 								tagName='button'
 								value={ attributes.btntext }
