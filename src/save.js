@@ -22,7 +22,7 @@ export default function save( { attributes }) {
 				<div className='block'>
 					<div className='box-number-title'>
 						<div className='box-number'>01</div>
-						<div className='box-title'>Team</div>
+						<div className='box-title'>First</div>
 					</div>
 					<h1 className='box-heading'>My First Gutenberg Block</h1>
 					<p className='box-content'>My First Gutenberg Block Using React – hello from the saved content!</p>
